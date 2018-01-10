@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A350EFA82006B713002F3BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFA72006B713002F3BB7 /* AppDelegate.swift */; };
+		A350EFAA2006B713002F3BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFA92006B713002F3BB7 /* ViewController.swift */; };
+		A350EFAD2006B713002F3BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350EFAB2006B713002F3BB7 /* Main.storyboard */; };
+		A350EFAF2006B713002F3BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A350EFAE2006B713002F3BB7 /* Assets.xcassets */; };
+		A350EFB22006B713002F3BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350EFB02006B713002F3BB7 /* LaunchScreen.storyboard */; };
+		A350EFBD2006B713002F3BB7 /* BallerScrabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFBC2006B713002F3BB7 /* BallerScrabbleTests.swift */; };
+		A350EFC82006B713002F3BB7 /* BallerScrabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFC72006B713002F3BB7 /* BallerScrabbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A350EFB92006B713002F3BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A350EF9C2006B712002F3BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A350EFA32006B713002F3BB7;
+			remoteInfo = BallerScrabble;
+		};
+		A350EFC42006B713002F3BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A350EF9C2006B712002F3BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A350EFA32006B713002F3BB7;
+			remoteInfo = BallerScrabble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A350EFA42006B713002F3BB7 /* BallerScrabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallerScrabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A350EFA72006B713002F3BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A350EFA92006B713002F3BB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A350EFAC2006B713002F3BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A350EFAE2006B713002F3BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A350EFB12006B713002F3BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A350EFB32006B713002F3BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A350EFB82006B713002F3BB7 /* BallerScrabbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallerScrabbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A350EFBC2006B713002F3BB7 /* BallerScrabbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallerScrabbleTests.swift; sourceTree = "<group>"; };
+		A350EFBE2006B713002F3BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A350EFC32006B713002F3BB7 /* BallerScrabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallerScrabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A350EFC72006B713002F3BB7 /* BallerScrabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallerScrabbleUITests.swift; sourceTree = "<group>"; };
+		A350EFC92006B713002F3BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A350EFA12006B713002F3BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFB52006B713002F3BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFC02006B713002F3BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A350EF9B2006B712002F3BB7 = {
+			isa = PBXGroup;
+			children = (
+				A350EFA62006B713002F3BB7 /* BallerScrabble */,
+				A350EFBB2006B713002F3BB7 /* BallerScrabbleTests */,
+				A350EFC62006B713002F3BB7 /* BallerScrabbleUITests */,
+				A350EFA52006B713002F3BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A350EFA52006B713002F3BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A350EFA42006B713002F3BB7 /* BallerScrabble.app */,
+				A350EFB82006B713002F3BB7 /* BallerScrabbleTests.xctest */,
+				A350EFC32006B713002F3BB7 /* BallerScrabbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A350EFA62006B713002F3BB7 /* BallerScrabble */ = {
+			isa = PBXGroup;
+			children = (
+				A350EFA72006B713002F3BB7 /* AppDelegate.swift */,
+				A350EFA92006B713002F3BB7 /* ViewController.swift */,
+				A350EFAB2006B713002F3BB7 /* Main.storyboard */,
+				A350EFAE2006B713002F3BB7 /* Assets.xcassets */,
+				A350EFB02006B713002F3BB7 /* LaunchScreen.storyboard */,
+				A350EFB32006B713002F3BB7 /* Info.plist */,
+			);
+			path = BallerScrabble;
+			sourceTree = "<group>";
+		};
+		A350EFBB2006B713002F3BB7 /* BallerScrabbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A350EFBC2006B713002F3BB7 /* BallerScrabbleTests.swift */,
+				A350EFBE2006B713002F3BB7 /* Info.plist */,
+			);
+			path = BallerScrabbleTests;
+			sourceTree = "<group>";
+		};
+		A350EFC62006B713002F3BB7 /* BallerScrabbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A350EFC72006B713002F3BB7 /* BallerScrabbleUITests.swift */,
+				A350EFC92006B713002F3BB7 /* Info.plist */,
+			);
+			path = BallerScrabbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A350EFA32006B713002F3BB7 /* BallerScrabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A350EFCC2006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabble" */;
+			buildPhases = (
+				A350EFA02006B713002F3BB7 /* Sources */,
+				A350EFA12006B713002F3BB7 /* Frameworks */,
+				A350EFA22006B713002F3BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallerScrabble;
+			productName = BallerScrabble;
+			productReference = A350EFA42006B713002F3BB7 /* BallerScrabble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A350EFB72006B713002F3BB7 /* BallerScrabbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A350EFCF2006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabbleTests" */;
+			buildPhases = (
+				A350EFB42006B713002F3BB7 /* Sources */,
+				A350EFB52006B713002F3BB7 /* Frameworks */,
+				A350EFB62006B713002F3BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A350EFBA2006B713002F3BB7 /* PBXTargetDependency */,
+			);
+			name = BallerScrabbleTests;
+			productName = BallerScrabbleTests;
+			productReference = A350EFB82006B713002F3BB7 /* BallerScrabbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A350EFC22006B713002F3BB7 /* BallerScrabbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A350EFD22006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabbleUITests" */;
+			buildPhases = (
+				A350EFBF2006B713002F3BB7 /* Sources */,
+				A350EFC02006B713002F3BB7 /* Frameworks */,
+				A350EFC12006B713002F3BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A350EFC52006B713002F3BB7 /* PBXTargetDependency */,
+			);
+			name = BallerScrabbleUITests;
+			productName = BallerScrabbleUITests;
+			productReference = A350EFC32006B713002F3BB7 /* BallerScrabbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A350EF9C2006B712002F3BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kayser, Zack (NonEmp)";
+				TargetAttributes = {
+					A350EFA32006B713002F3BB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A350EFB72006B713002F3BB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A350EFA32006B713002F3BB7;
+					};
+					A350EFC22006B713002F3BB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A350EFA32006B713002F3BB7;
+					};
+				};
+			};
+			buildConfigurationList = A350EF9F2006B712002F3BB7 /* Build configuration list for PBXProject "BallerScrabble" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A350EF9B2006B712002F3BB7;
+			productRefGroup = A350EFA52006B713002F3BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A350EFA32006B713002F3BB7 /* BallerScrabble */,
+				A350EFB72006B713002F3BB7 /* BallerScrabbleTests */,
+				A350EFC22006B713002F3BB7 /* BallerScrabbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A350EFA22006B713002F3BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A350EFB22006B713002F3BB7 /* LaunchScreen.storyboard in Resources */,
+				A350EFAF2006B713002F3BB7 /* Assets.xcassets in Resources */,
+				A350EFAD2006B713002F3BB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFB62006B713002F3BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFC12006B713002F3BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A350EFA02006B713002F3BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A350EFAA2006B713002F3BB7 /* ViewController.swift in Sources */,
+				A350EFA82006B713002F3BB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFB42006B713002F3BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A350EFBD2006B713002F3BB7 /* BallerScrabbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A350EFBF2006B713002F3BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A350EFC82006B713002F3BB7 /* BallerScrabbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A350EFBA2006B713002F3BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A350EFA32006B713002F3BB7 /* BallerScrabble */;
+			targetProxy = A350EFB92006B713002F3BB7 /* PBXContainerItemProxy */;
+		};
+		A350EFC52006B713002F3BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A350EFA32006B713002F3BB7 /* BallerScrabble */;
+			targetProxy = A350EFC42006B713002F3BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A350EFAB2006B713002F3BB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A350EFAC2006B713002F3BB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A350EFB02006B713002F3BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A350EFB12006B713002F3BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A350EFCA2006B713002F3BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A350EFCB2006B713002F3BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A350EFCD2006B713002F3BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A350EFCE2006B713002F3BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A350EFD02006B713002F3BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallerScrabble.app/BallerScrabble";
+			};
+			name = Debug;
+		};
+		A350EFD12006B713002F3BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallerScrabble.app/BallerScrabble";
+			};
+			name = Release;
+		};
+		A350EFD32006B713002F3BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BallerScrabble;
+			};
+			name = Debug;
+		};
+		A350EFD42006B713002F3BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BallerScrabbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BallerScrabble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A350EF9F2006B712002F3BB7 /* Build configuration list for PBXProject "BallerScrabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A350EFCA2006B713002F3BB7 /* Debug */,
+				A350EFCB2006B713002F3BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A350EFCC2006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A350EFCD2006B713002F3BB7 /* Debug */,
+				A350EFCE2006B713002F3BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A350EFCF2006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A350EFD02006B713002F3BB7 /* Debug */,
+				A350EFD12006B713002F3BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A350EFD22006B713002F3BB7 /* Build configuration list for PBXNativeTarget "BallerScrabbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A350EFD32006B713002F3BB7 /* Debug */,
+				A350EFD42006B713002F3BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A350EF9C2006B712002F3BB7 /* Project object */;
+}
