@@ -14,6 +14,8 @@
 		A350EFB22006B713002F3BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350EFB02006B713002F3BB7 /* LaunchScreen.storyboard */; };
 		A350EFBD2006B713002F3BB7 /* BallerScrabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFBC2006B713002F3BB7 /* BallerScrabbleTests.swift */; };
 		A350EFC82006B713002F3BB7 /* BallerScrabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350EFC72006B713002F3BB7 /* BallerScrabbleUITests.swift */; };
+		A3FF58BC200966C500C96083 /* Scrabble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF58BB200966C500C96083 /* Scrabble.swift */; };
+		A3FF58C12009692300C96083 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF58C02009692300C96083 /* BackendError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A350EFC32006B713002F3BB7 /* BallerScrabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallerScrabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A350EFC72006B713002F3BB7 /* BallerScrabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallerScrabbleUITests.swift; sourceTree = "<group>"; };
 		A350EFC92006B713002F3BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FF58BB200966C500C96083 /* Scrabble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrabble.swift; sourceTree = "<group>"; };
+		A3FF58C02009692300C96083 /* BackendError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		A350EFA62006B713002F3BB7 /* BallerScrabble */ = {
 			isa = PBXGroup;
 			children = (
+				A3FF58BD200967D500C96083 /* Errors */,
+				A3FF58BA200966B700C96083 /* Scrabble */,
 				A350EFA72006B713002F3BB7 /* AppDelegate.swift */,
 				A350EFA92006B713002F3BB7 /* ViewController.swift */,
 				A350EFAB2006B713002F3BB7 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				A350EFC92006B713002F3BB7 /* Info.plist */,
 			);
 			path = BallerScrabbleUITests;
+			sourceTree = "<group>";
+		};
+		A3FF58BA200966B700C96083 /* Scrabble */ = {
+			isa = PBXGroup;
+			children = (
+				A3FF58BB200966C500C96083 /* Scrabble.swift */,
+			);
+			path = Scrabble;
+			sourceTree = "<group>";
+		};
+		A3FF58BD200967D500C96083 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				A3FF58C02009692300C96083 /* BackendError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A350EFAA2006B713002F3BB7 /* ViewController.swift in Sources */,
+				A3FF58C12009692300C96083 /* BackendError.swift in Sources */,
 				A350EFA82006B713002F3BB7 /* AppDelegate.swift in Sources */,
+				A3FF58BC200966C500C96083 /* Scrabble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWY6EXNS8G;
 				INFOPLIST_FILE = BallerScrabble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabble;
@@ -441,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWY6EXNS8G;
 				INFOPLIST_FILE = BallerScrabble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkayser.BallerScrabble.BallerScrabble;
